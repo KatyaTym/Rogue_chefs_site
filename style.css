@@ -1,0 +1,41 @@
+.logo_img {
+    width: 167px;
+    height: 187px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_style {
+    font-family: Trebuchet MS, sans-serif;
+    white-space: nowrap;
+}
+
+.row {
+    position: absolute;
+    top: 15px;
+    left: 12%;
+    /*    box-sizing: inherit;
+    flex-wrap: nowrap;*/
+}
+
+.col,
+.col-2 {
+    width: 200px;
+}
+
+.red_line {
+    width: 30%;
+    height: 1px;
+    background-color: #FF1A2C;
+    margin-left: 95px;
+    margin-top: 5px;
+}
+
+.red_btn {
+    background-color: #FF1A2C;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
