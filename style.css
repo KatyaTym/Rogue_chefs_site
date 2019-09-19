@@ -39,3 +39,26 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.handwritten_text {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 30px;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+.well_versed_text {
+	font-size: 35px;
+}
+
+.container_about_us {
+	margin: 0 10% 0 10%;
+}
+
+.text_about_us {
+	text-align: justify;
+}
+
+.img_chops_fire {
+	width: 100%;
+}
