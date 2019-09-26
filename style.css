@@ -41,8 +41,12 @@
     margin-bottom: 0;
 }
 
-.well_versed_font {
+.font_size_large {
     font-size: 30px;
+}
+
+.font_size_medium {
+	font-size: 15px;
 }
 
 .container_margin {
@@ -57,6 +61,7 @@
     width: 100%;
 }
 
+
 .background_color_brown {
 	background-color: #22191A;
 }
@@ -69,3 +74,48 @@
 .no_margin_bottom {
 	margin-bottom: 0;
 }
+
+.size_img {
+	width: 95%;
+	height: 240px;
+}
+
+.end_background_img {
+    position: relative;
+    background-color: #000;
+}
+
+.end_background_img::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background: url(img/salad.png) no-repeat center center;
+    background-size: cover;
+}
+
+.content_end_background_img{
+  position: relative;
+  padding-left: 100px;
+}
+/*	position: relative;
+    background-color: #000;
+}
+
+.end_background_img::before {
+	background-image: url(img/salad.png);
+	display: block;
+    position: absolute;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    width: 100%;
+    height: 50vw;
+    opacity: 0.5;
+}*/
