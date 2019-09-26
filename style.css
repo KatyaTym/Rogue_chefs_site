@@ -37,8 +37,11 @@
 }
 
 .text_margin {
-    padding-top: 3%;
     margin-bottom: 0;
+}
+
+.text_padding {
+	adding-top: 3%;
 }
 
 .font_size_large {
@@ -46,14 +49,14 @@
 }
 
 .font_size_medium {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 .container_margin {
     margin: 0 10% 0 10%;
 }
 
-.text_align {
+.text_align_justify {
     text-align: justify;
 }
 
@@ -63,21 +66,21 @@
 
 
 .background_color_brown {
-	background-color: #22191A;
+    background-color: #22191A;
 }
 
 .div_padding {
-	padding-top: 5%;
-	padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .no_margin_bottom {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
-.size_img {
-	width: 95%;
-	height: 240px;
+.size_img_wine {
+    width: 95%;
+    height: 240px;
 }
 
 .end_background_img {
@@ -85,7 +88,7 @@
     background-color: #000;
 }
 
-.end_background_img::before{
+.end_background_img::before {
     content: ' ';
     display: block;
     position: absolute;
@@ -99,23 +102,20 @@
     background-size: cover;
 }
 
-.content_end_background_img{
-  position: relative;
-  padding-left: 100px;
-}
-/*	position: relative;
-    background-color: #000;
+.content_end_background_img {
+    position: relative;
+    padding-left: 100px;
 }
 
-.end_background_img::before {
-	background-image: url(img/salad.png);
-	display: block;
-    position: absolute;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;
-    width: 100%;
-    height: 50vw;
-    opacity: 0.5;
-}*/
+.arrow, .ellipsis {
+    font-size: 30px;
+    color: #DC3545;
+}
+
+.arrow_right {
+	padding-left: 50px; 
+}
+
+.arrow_left {
+	padding-right: 50px;
+}
