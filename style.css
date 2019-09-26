@@ -22,6 +22,10 @@
     width: 13%;
 }
 
+.width_xsmall {
+    width: 10%;
+}
+
 .nav_item_spacing {
     margin: 0 2% 0 2%;
 }
@@ -41,7 +45,7 @@
 }
 
 .text_padding {
-	adding-top: 3%;
+    padding-top: 3%;
 }
 
 .font_size_large {
@@ -50,6 +54,11 @@
 
 .font_size_medium {
     font-size: 15px;
+}
+
+.font_size_small {
+	font-size: 12px;
+
 }
 
 .container_margin {
@@ -72,6 +81,11 @@
 .div_padding {
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.div_padding_small {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .no_margin_bottom {
@@ -107,15 +121,30 @@
     padding-left: 100px;
 }
 
-.arrow, .ellipsis {
+.arrow,
+.ellipsis {
     font-size: 30px;
     color: #DC3545;
 }
 
 .arrow_right {
-	padding-left: 50px; 
+    padding-left: 50px;
 }
 
 .arrow_left {
-	padding-right: 50px;
+    padding-right: 50px;
+}
+
+.icon_insta_and_faceboock {
+    font-size: 30px;
+    color: #DC3545;
+    padding: 5px;
+}
+
+.padding_top {
+	padding-top: 30px;
+}
+
+.background_color_black {
+	background-color: black;
 }
