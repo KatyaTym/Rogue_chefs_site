@@ -143,6 +143,31 @@
     padding-top: 0.5rem;
 }
 
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #dc3545;
+}
+
+#food_caruosel.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.carousel-item img {
+    position: relative;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
 @media (min-width: 994px) {
     .nav_item_font_size {
         font-size: 1rem;
